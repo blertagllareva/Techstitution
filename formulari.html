@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulari</title>
+	<link rel="stylesheet" type="text/css" href="css1.css">
+</head>
+<body>
+
+<div id="mainDiv">
+<div id="div0">
+	<img src="capture.jpg" class="img">
+	<p style="float: left; color:brown; margin-left: 100px; font-family: verdana; font-weight: bold; font-size: 20px; margin-top: 30px;">ATS OCCURRENCE REPORT</p>
+	<div class="toggle">
+	<p style="float: left; margin: 10px; width: 450px;">
+	<h2>Info: </h2>
+	<h4>ADVICE ON THE COMPLETION OF THE CAAK ATS OCCURRENCE REPORT FORM – 
+		AACK/DSF/OR-FRM 02</h2>
+		<h5>USE AND EXPLANATION OF TERMS IN BOX 1
+		ACCIDENT: 	A Kosovo reportable accident.
+		</h5>
+		<p>
+			<h6>ACCIDENT:</h6> 	A Kosovo reportable accident.
+		<h6>AIRPROX:</h6>	An AIRPROX is a situation in which, in the opinion of a pilot or a controller, the distance between aircraft as well as their relative positions and speed have been such that the safety of the aircraft involved was or may have been compromised.
+		<h6>INCIDENT: </h6>	Any Occurrence not appropriate to the other categories.
+		<h6>INFRIGEMENT: </h6>	An alleged unauthorized infringement of regulated airspace.
+
+		<h6>EXPLANATORY NOTES </h6> (Please also refer to manual of ATS procedures) 
+
+		<h6>GENERAL: </h6> Complete ALL boxes. If NOT APPLICABLE use N/A, or if NOT KNOWN use N/K. Avoid use of technical jargon, hieroglyphics and abbreviations.
+
+		<h6>BOX 1:</h6>	Should the Occurrence involve more than one category, tick both categories. 
+
+		<h6>BOXES 7 TO 14</h6>
+
+		<h6>BOXES 15 TO 22 </h6>	These boxes cater for up to three involved aircraft. Use the narrative for additional aircraft.
+
+		<h6> BOXES 23 TO 30 </h6>
+
+		<h6>BOX 40: </h6>	Must be completed if prescribed separation was required to be achieved in accordance with manual of ATS procedures.
+
+		<h6>BOX 41: </h6>	Should contain your estimate, where possible, of the minimum separation achieved and must be completed for an AIRPROX. This will be coded for computer input purposes and amended if necessary after investigation.
+
+		<h6>BOX 45: </h6>	This box should contain a simple, one-line statement summarizing the Occurrence, i.e. 'Coordination problems', 'Level bust', 'Overload' etc.
+
+		<h6> BOX 52/53: </h6> 	Relevant RTF and Radar recordings can be vitally important to subsequent investigations. Retention action should be considered for all reports and is to be in accordance with ATS Manual and any local procedures.
+
+		<h6> BOX 54: </h6> 	It is important to ensure that any involved agency (e.g. Pilot, Operator, ATSU) is informed of the reporting action. This box should also indicate those organisations required by ATS Manual to be informed (e.g. Aeronautical Accident and Incident Investigations Commission (AAIIC)).
+
+
+		<h5>REPORTING TIME </h5>
+		Report must be dispatched within 72 hours of the event unless exceptional circumstances prevent this.
+
+		<h5>ACKNOWLEDGEMENT OF REPORTS</h5>
+		If, acknowledgement of reports is required, please contact the CAAK direct on e-mail: mor@caa-ks.org or mobile number: +377 (0)44 613 567.
+
+		<h5>UNIT MANAGEMENT ACTION </h5>
+		Reporters are requested to send a copy to the Unit Management. This is for local assessment and any immediate follow-up action. Additional input and/or covering comment from Unit Management is highly desirable for both Safety Data evaluation and any follow-up investigation.
+
+		<h5>CONFIDENTIAL REPORTS </h5>
+		An occurrence may be reported confidentially. If the report is ‘CONFIDENTIAL’ please tick the box ‘Yes’ on top of the form to annotate confidentiality of the report, and if it is sent to CAAK’s address, mark the envelope ‘Personal for the Director General of CAAK’. The second copy need not be forwarded to local management. BOXES 47 to 57 should be completed. The CAAK will respect the confidentiality and contact you personally
+
+		</p>
+
+
+	<br>
+	<br>
+	</p>
+	</div>
+	<br/><button class="button">INFO!</button>
+</div>
+<form>
+<div id="div1">
+<table>
+<p>Please fill in this form and than submit it</p>
+<table>
+
+	<tr>
+			<td>Categories of Occurrence:</td>
+			<td><select name="occurrence" class="text">
+			<option>Select</option>
+			<option>Accident</option>
+			<option>Airprox</option>
+			<option>Incident</option>
+			<option>Infringement</option>
+		</select></td>
+		</tr>
+		<tr>
+		<td>Occurrence position: </td><td><input type="text" name="occPos" class="text"></td>
+		<tr>
+		<td><input type="checkbox" name="fl">FL<input type="checkbox" name="ALT">ALT/HT</td><td>Other: <input type="text" name="other"></td>
+
+	</tr>
+	</tr>
+
+	<tr>
+		<td>Date:</td><td><input type="Date" name="data" class="text"></td>
+	</tr>
+	<tr>
+		<td>Time:</td><td><input type="Time" name="Time" class="text"></td>
+	</tr>
+	<tr>
+		<td>Time</td><td><input type="radio" name="DayTime">Day<input type="radio" name="NightTime">Night</td>
+	</tr>
+	<tr>
+		<td>Operator:</td><td><input type="Text" name="Operator" class="text"></td>
+	</tr>
+	<tr>
+		<td>Call/Sign/Regn:</td><td><input type="Text" name="CSR" class="text"></td>
+	</tr>
+	<tr>
+		<td>Time:</td><td><input type="Text" name="Time" class="text"></td>
+	</tr>
+	<tr>
+		<td>Type:</td><td><input type="Text" name="Type" class="text"></td>
+	</tr>
+	<tr>
+		<td>To:</td><td><input type="Text" name="To" class="text"></td>
+	</tr>
+	<tr>
+		<td>SSR Code:</td><td><input type="Text" name="SSR" class="text"></td>
+	</tr>
+	<tr>
+		<td>MODE C DISPLAYED</td><td><input type="radio" name="MCD">Yes<input type="radio" name="MCD">No</td>
+	</tr>
+	<tr>
+		<td>IFRV/VFR/SVFR</td><td><input type="checkbox" name="IFRV">IFR<input type="checkbox" name="IFRV">VFR<input type="checkbox" name="IFRV">SVFR</td>
+	</tr>
+	<tr>
+		<td>RTF Frequencies:</td><td><input type="Text" name="RTF" class="text"></td>
+	</tr>
+	<tr>
+		<td>Radar Equipment:</td><td><input type="Text" name="Radar" class="text"></td>
+	</tr>
+</table>
+</div>
+<div id="div2">
+	<table>
+	<tr>
+		<td>Equipment Unserviceabilities:</td><td><input type="Text" name="Abilities" class="text"></td>
+	</tr>
+	<tr>
+		<td>QNH:</td><td><input type="Text" name="QNH" class="text"></td>
+	</tr>
+	<tr>
+		<td>Runway in use:</td><td><input type="Text" name="Runway" class="text"></td>
+	</tr>
+  <tr> <td>Class of Airspace:</td>
+		<td><select name="occurrence" class="text">
+			<option>Select</option>
+			<option>A</option>
+			<option>B</option>
+			<option>C</option>
+			<option>D</option>
+			<option>E</option>
+			<option>F</option>
+			<option>G</option>
+		</select></td>
+	</tr>
+	<tr><td>Type of Airspace:</td><td><select name="occurrence" class="text">
+           							<option>Select</option>
+									<option>ATZ</option>
+									<option>CTA</option>
+									<option>CBA</option>
+									<option>CTR</option>
+									<option>TMA</option>
+									<option>TSA</option>
+									<option>CVSM</option>
+									<option>RVSM</option>
+									<option>Prohibited area</option>
+									<option>Transitional area</option>
+									<option>Danger area</option>
+									<option>Restricted area</option>
+									<option>Unknown</option>
+									<option>Other</option>
+						        </select></td>
+        
+	</tr>
+        <tr>
+        	<td>Type Of ATS Service:</td><td><select name="ats" class="text">
+		<option>Select</option>
+			<option>Radar</option>
+			<option>Aerodrome</option>
+			<option>Approach</option>
+			<option>Area</option>
+			<option>Other</option>
+			<option>Procedural control</option>
+			<option>Radar Control</option>
+			<option>Radar Service</option>
+			<option>Traffic Service</option>
+			<option>Basic Service</option>
+			<option>ADC</option>
+			<option>GMC</option>
+			<option>ALR</option>
+		</select></td>
+        </tr>
+        <tr>
+        <td>SID/STAR/ROUTE:</td><td><input type="text" name="SSR" class="text"></td>
+        </tr>
+        <tr>
+        <td>Was prescribed separation lost:</td><td><input type="radio" name="Was prescribed separation lost">Yes<br><input type="radio" name="Was prescribed separation lost">No</td>
+        </tr>
+        <tr>
+        	<td>Min Separation</td><td>Horizontal <input type="text" name="Min Separation" class="minsep"> NM Vertical <input type="text" name="Min Separation" class="minsep"> ft</td>
+        </tr>
+        <tr>
+        	<td>Alert Activation:</td><td><select name="alav">
+		<option>Select</option>
+			<option>Confilct Alert</option>
+			<option>Collision</option>
+			<option>TCAS</option>
+			<option>STCA</option>
+			<option>SMF</option>
+			</select></td>
+        </tr>
+        <tr>
+        <td>Traffic into given by ATC? </td><td><input type="radio" name="Traffic into given by ATC">Yes<input type="radio" name="Traffic into given by ATC">No</td>
+        </tr>
+        <tr>
+        <td>Brief title/Summary:</td><td><input type="text" name="bts" class="text"></td>
+        </tr>
+        <tr>
+        <td>Narrative:<p>Use Diagran if necessary (Aerodrom submit weather report including local and regional QNH)</p> </td><td><textarea placeholder="Enter a description" rows="10" cols="21"></textarea></td>
+        </tr>
+        </table>
+        </div>
+        <div id="div3">
+        <table>
+        <tr>
+        <td>Name:</td><td><input type="text" name="name" class="text"></td>
+        </tr>
+        <tr>
+        <td>On duty as:</td><td><input type="text" name="onduty" class="text"></td>
+        </tr>
+        <tr>
+        <td>ATS Unit:</td><td><input type="text" name="ats-unit" class="text"></td>
+        </tr>
+        <tr>
+        	<td>Time since last break:</td><td><input type="Time" name="time" class="text"> UTC</td>
+        </tr>
+         <tr>
+        	<td>Start time of shift:</td><td><input type="Time" name="time" class="text"> UTC</td>
+        </tr>
+        <tr>
+        <td>Radar recordings Held: </td><td><input type="radio" name="Radar recordings Held:">Yes<input type="radio" name="Radar recordings Held:">No</td>
+        </tr>
+        <tr>
+        <td>RTF recordings Held: </td><td><input type="radio" name="Radar recordings Held:">Yes<input type="radio" name="Radar recordings Held:">No</td>
+        </tr>
+         <tr>
+        <td>List another agencies advised:</td><td><input type="text" name="ats-unit" class="text"></td>
+        </tr>
+        <tr>
+		<td>Date/Sign:</td><td><input type="Date" name="data"></td>
+	</tr>
+		<tr>
+			<td>Address: </td><td><input type="text" name="add" class="text"></td>
+		</tr>
+		<tr>
+			<td>Email Address: </td><td><input type="text" name="e-add" class="text"></td>
+		</tr>
+		<tr>
+			<td>Telephone: </td><td><input type="text" name="tel" class="text"></td>
+		</tr>
+</table>
+</div>
+<div id="submiti">
+<label style="font-size: 14px; font-weight: bold;">If you have completed your data  click "I agree" and submit your data!</label><br><br>
+<label style="font-size: 12px; padding-left: 10px; font-family: verdana;">I agree:</label><input type="checkbox" name="prog" value="1"><br><br>
+
+<input type="submit" id="submit_prog" value='Submit' class="submitii"/>
+</div>
+</div>
+</div>
+</form>
+<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+<script src="formularijQuery.js"></script>
+</body>
+</html>

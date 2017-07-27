@@ -1,0 +1,97 @@
+body{
+
+}
+#mainDiv
+{
+	width:1000px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+#div0
+{
+	width:1000px;
+	height: 100px;
+	float: left;
+	background-color: lightblue;
+	border: solid 1px lightgreen;
+}
+#div1, #div2, #div3
+{
+	width: 323px;
+	height: auto;
+	float: left;
+	background-color: lightgreen;
+	margin: 5px;
+}
+.minsep
+{
+	width:40px;
+	height: 20px;
+	border: 1px solid red;
+	margin-top: 2px;
+}
+.text
+{
+	width:170px;
+	height: 20px;
+	color:gray;
+}
+td{
+	width:200px;
+	height: auto;
+}
+tr
+{
+	margin:0;
+}
+.img
+{
+	width: 500px;
+	height: 100px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.toggle
+{
+	width: 500px;
+	height: auto;
+	border-bottom: solid 3px brown;
+	border-top: solid 3px brown;
+	background-color: lightgreen;
+	float: right;
+	position: absolute;
+	margin-bottom: 3px;
+
+}
+.button
+{
+	width:80px;
+	height: 50px;
+	margin-left: 10px;
+	background-color: lightgreen;
+	position: absolute;
+	z-index: 1;
+	cursor: pointer;
+}
+#submiti{
+	width:323px;
+	height: 150px;
+	float: left;
+	margin-left: 5px;
+	border-right: solid 1px lightgreen;
+	border-bottom: solid 1px lightgreen;
+}
+#submit_prog{
+	width: 150px;
+	height: 50px;
+	float: right;
+	margin:5px;
+	background-color: lightgreen;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	color: brown;
+	cursor:pointer;
+}
